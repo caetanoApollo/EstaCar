@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./carro.css">
+    <title>EstaCar - Cadastro carro</title>
+</head>
+<body>
+    <header>
+        <h1>ESTACAR</h1>
+        <div>
+            <i class="bi bi-car-front"></i> 
+            <i class="bi bi-person"></i>
+        </div>
+    </header>
+
+    <main>
+        <section id="cadastro">
+            <h2>Cadastro de veículo</h2>
+    
+            <div>
+                <p>Placa do carro:</p>
+                <input type="text" name="text" id="Placa" placeholder="Digite a placa do carro">
+            </div>
+            <div>
+                <p>marca do carro:</p>
+                <select class="menu" name="marca" id="marca">
+                    <option value="1">Toyota</option>
+                    <option value="2">Ford</option>
+                    <option value="3">Volkswagen</option>
+                    <option value="4">Fiat</option>
+                    <option value="5">Kia</option>
+                    <option value="6">Citröen</option>
+                    <option value="7">Hyundai</option>
+                    <option value="8">Chevrolet</option>
+                    <option value="9">Honda</option>
+                    <option value="10">Renault</option>
+                    <option value="11">Outra marca</option>
+                </select>
+            </div>
+            <div>
+                <p>Bloco da vaga</p>
+                <select class="menu" name="bloco" id="bloco">
+                    <option value="1">A</option>
+                    <option value="2">B</option>
+                    <option value="3">C</option>
+                    <option value="4">D</option>
+                    <option value="5">E</option>
+                </select>
+            </div>
+            <div>
+                <p>Número da vaga</p>
+                <select class="menu" name="num" id="num">
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+
+            <button type="submit">Cadastrar Veículo</button>
+        </section>
+    </main>
+</body>
+</html>
