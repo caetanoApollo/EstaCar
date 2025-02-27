@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', Courier, monospace;
+}
+
+html{
+    background-color: #DDDDDD;
+}
+
+header{
+    background-color: #059BF2;
+    color: #DDDDDD;
+    font-size: 20px;
+    letter-spacing: 0.5dvh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1dvh;
+}
+
+header div{
+    display: flex;
+    font-size: 30px;
+    gap: 4vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200%;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    color: #DDDDDD;
+
+    background: linear-gradient(to bottom, #059BF2, #035A8C);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.6);
+    background-color: #035A8C;
+    height: auto; 
+    width: 30%;
+    padding: 2vh;
+    gap: 1vh;
+    border-radius: 15px;
+    margin-top: 10%;
+}
+
+#login div input{
+    border-radius: 50px;
+    border: none;
+
+    padding: 5px;
+    width: 90%;
+}
+
+#login div input:focus{
+    border: 0 none;
+    outline: 0;
+}
+
+#login button{
+    background:#059BF2;
+    color: #DDDDDD;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10%;
+
+    padding: 5px;
+    width: 30%;
+    margin-left: 35%;
+}
+
+#login button:hover{
+    background:#DDDDDD;
+    color: #059BF2;
+    transform: scale(1.1);
+    transition-duration: 250ms;
+}
+
+#login a{
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+#login a:hover{
+    color: #059BF2;
+    transform: scale(1.1);
+    transition-duration: 250ms;
+}
+
+

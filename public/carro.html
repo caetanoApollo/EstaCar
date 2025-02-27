@@ -8,15 +8,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./carro.css">
+    <link rel="stylesheet" href="./css/carro.css">
     <title>EstaCar - Cadastro carro</title>
 </head>
 <body>
     <header>
         <h1>ESTACAR</h1>
         <div>
-            <i class="bi bi-car-front"></i> 
-            <i class="bi bi-person"></i>
+            <a href="./carro.html"><i class="bi bi-car-front"></i></a>
+            <a href="./login.html"><i class="bi bi-person"></i></a>
         </div>
     </header>
 
@@ -32,16 +32,17 @@
                 <p>marca do carro:</p>
                 <select class="menu" name="marca" id="marca">
                     <option value="1">Toyota</option>
-                    <option value="2">Ford</option>
+                    <option value="2">Honda</option>
                     <option value="3">Volkswagen</option>
-                    <option value="4">Fiat</option>
-                    <option value="5">Kia</option>
-                    <option value="6">Citröen</option>
-                    <option value="7">Hyundai</option>
-                    <option value="8">Chevrolet</option>
-                    <option value="9">Honda</option>
-                    <option value="10">Renault</option>
-                    <option value="11">Outra marca</option>
+                    <option value="4">Ford</option>
+                    <option value="5">Chevrolet</option>
+                    <option value="6">Nissan</option>
+                    <option value="7">BMW</option>
+                    <option value="8">Mercedes-Benz</option>
+                    <option value="9">Audi</option>
+                    <option value="10">Fiat</option>
+                    <option value="11">Kia</option>
+                    <option value="12">Outro</option>
                 </select>
             </div>
             <div>
@@ -72,8 +73,11 @@
                 </select>
             </div>
 
+            <input type="hidden" name="usuario_id" id="usuario_id" value="">
+
             <button type="submit">Cadastrar Veículo</button>
         </section>
     </main>
+    <script src="./js/main.js"></script>
 </body>
 </html>

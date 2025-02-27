@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Bebas Neue", Courier, monospace;
+}
+
+html {
+  background-color: #dddddd;
+}
+
+header {
+  background-color: #059bf2;
+  color: #dddddd;
+  font-size: 20px;
+  letter-spacing: 0.5dvh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1dvh;
+}
+
+header div {
+  display: flex;
+  font-size: 30px;
+  gap: 4vh;
+}
+
+main div {
+  padding: 2%;
+}
+
+#busca {
+  padding: 0.4%;
+  width: 20%;
+  background-color: #a8a8a8;
+  border-radius: 50px;
+  border: 0;
+}
+
+#busca:focus {
+  border: 0 none;
+  outline: 0;
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  color: #888888; 
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  text-transform: uppercase;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+td {
+  font-size: 130%;
+}
+
+tr {
+  border-bottom: 1px solid #888888;
+}
