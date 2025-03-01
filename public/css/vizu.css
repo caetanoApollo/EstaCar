@@ -69,7 +69,7 @@ tr {
   border-bottom: 1px solid #888888;
 }
 
-button{
+#buscarTodosButton{
   background:#059BF2;
   color: #DDDDDD;
   border-radius: 50px;
@@ -83,13 +83,11 @@ button{
 #logoutButton{
   color:#059BF2;
   background: #DDDDDD;
-  border-radius: 50px;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
 
-  margin-left: 1vh;
   padding: 5px;
-  width: 30%;
 }
 
 button:hover{
@@ -97,4 +95,8 @@ button:hover{
   color: #DDDDDD;
   transform: scale(1.1);
   transition-duration: 250ms;
+}
+
+a{
+  color: #DDDDDD;
 }
